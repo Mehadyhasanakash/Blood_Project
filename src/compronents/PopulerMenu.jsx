@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import PopulerMenuCard from "./PopulerMenuCard";
 
 const PopulerMenu = () => {
     const[menu, setMenu] = useState([]);
@@ -15,10 +16,24 @@ const PopulerMenu = () => {
   }, [])
 
 
-  
+
   return (
     <>
-    <h1>Populer_Menu</h1>
+   <div>
+   <h1 className="text-center">Populer_Menu</h1>
+
+    
+<div className="grid md:grid-cols-3 gap-4 ">
+{
+    menu.map(item => <PopulerMenuCard
+    
+    key={item.id}
+    item={item}
+    ></PopulerMenuCard>)
+}
+</div>
+
+   </div>
 
     </>
   )
