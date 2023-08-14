@@ -8,7 +8,7 @@ import image04 from '../assets/image/banner_04.jpg';
 const Banner = () => {
   return (
     <>
-    <Carousel autoPlay={Boolean} >
+    <Carousel autoPlay={Boolean}  >
                 <div>
                     <img src={image01} />
                 </div>
