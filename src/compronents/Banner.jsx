@@ -8,7 +8,8 @@ import image04 from '../assets/image/banner_04.jpg';
 const Banner = () => {
   return (
     <>
-    <Carousel autoPlay={Boolean}  >
+    <div >
+    <Carousel  autoPlay={Boolean}  >
                 <div>
                     <img src={image01} />
                 </div>
@@ -22,6 +23,7 @@ const Banner = () => {
                     <img src={image04} />
                 </div>
             </Carousel>
+    </div>
       
     </>
   )
