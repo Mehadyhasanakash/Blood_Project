@@ -1,6 +1,7 @@
 import Banner from "../../compronents/Banner"
 import BloodCetagory from "../../compronents/BloodCetagory"
 import PopulerMenu from "../../compronents/PopulerMenu"
+import Review from "../../compronents/Review"
 
 const Home = () => {
 
@@ -10,6 +11,7 @@ const Home = () => {
         <Banner/>
         <BloodCetagory/>
         <PopulerMenu/>
+        <Review/>
     </div>
   )
 }

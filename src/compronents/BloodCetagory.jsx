@@ -15,7 +15,8 @@ import im05 from "../assets/poster/poster_05.jpg";
 const BloodCetagory = () => {
   return (
     
-    <Swiper
+    <div className='mt-20'>
+      <Swiper
         slidesPerView={4}
         spaceBetween={30}
         centeredSlides={true}
@@ -32,6 +33,7 @@ const BloodCetagory = () => {
         <SwiperSlide><img src={im05} alt="" /> </SwiperSlide>
        
       </Swiper>
+    </div>
       
     
   )
